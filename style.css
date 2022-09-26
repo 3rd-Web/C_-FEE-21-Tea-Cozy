@@ -1,7 +1,7 @@
 * {
     font-size: Helvetica;
     color: seashell;
-    opacity: .9;
+    opacity: .95;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -40,10 +40,15 @@
     margin-left: 20px;
 }
 
+.links a:hover {
+    color: #fff5ee62;
+}
+
 /* MISSION SECTION  */
 
 .mission {
     background-image: url(/img/mission-background.jpeg);
+    border-radius: 15px;
     width: 1200px;
     margin: 0 auto;
     height: 700px;
@@ -83,6 +88,12 @@
     width: 300px;
     height: 200px;
     display: flex;
+    border-radius: 15px;
+    opacity: .75;
+}
+
+.teaimg:hover {
+    opacity: 1;
 }
 
 /* LOCATIONS SECTION  */
@@ -97,6 +108,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    border-radius: 15px;
 }
 
 .locationheader {
@@ -121,6 +133,7 @@
     flex-direction: column;
     justify-content: center;
     line-height: 30px;
+    border-radius: 15px;
 }
 
 /* CONTACT SECTION  */
